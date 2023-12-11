@@ -1,10 +1,6 @@
-# 0. imports
 import os
 from dataclasses import dataclass, field
-from typing import Dict, Optional
-
-
-# Define and parse arguments.
+from typing import Optional
 
 @dataclass
 class ScriptArguments:

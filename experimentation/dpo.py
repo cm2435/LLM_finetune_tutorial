@@ -35,7 +35,6 @@ def get_stack_exchange_paired(
         "argilla/distilabel-math-preference-dpo",
         split="train",
         cache_dir=cache_dir,
-        data_dir=data_dir,
     )
     original_columns = dataset.column_names
 
