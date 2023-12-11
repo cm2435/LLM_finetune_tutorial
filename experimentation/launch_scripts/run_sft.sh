@@ -1,0 +1,1 @@
+accelerate launch sft.py --training_args.output_dir="../models/zephyr_math_sft" --model_name=mistralai/Mistral-7B-v0.1 --training_args.learning_rate 1e-4 --training_args.max_steps 5000 --dataset_name "argilla/distilabel-math-preference-dpo" --streaming False
