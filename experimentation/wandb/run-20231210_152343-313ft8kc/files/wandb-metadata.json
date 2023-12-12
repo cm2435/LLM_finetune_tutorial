@@ -1,0 +1,243 @@
+{
+    "os": "Linux-6.2.0-37-generic-x86_64-with-glibc2.35",
+    "python": "3.10.13",
+    "heartbeatAt": "2023-12-10T15:23:44.123015",
+    "startedAt": "2023-12-10T15:23:43.422867",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--training_args.output_dir=sft",
+        "--model_name=mistralai/Mistral-7B-v0.1",
+        "--training_args.learning_rate",
+        "1e-4",
+        "--training_args.max_steps",
+        "5000",
+        "--dataset_name",
+        "argilla/distilabel-math-preference-dpo",
+        "--streaming",
+        "False"
+    ],
+    "state": "running",
+    "program": "/home/cm2435/Desktop/finetune/experimentation/sft.py",
+    "codePathLocal": "sft.py",
+    "codePath": "finetune/experimentation/sft.py",
+    "git": {
+        "remote": "https://github.com/cm2435/thesis-private",
+        "commit": "93006438ce36d8c75d5dd9a58c86e2a0a447e9a7"
+    },
+    "email": "cm2435@bath.ac.uk",
+    "root": "/home/cm2435/Desktop",
+    "host": "cm2435-System-Product-Name",
+    "username": "cm2435",
+    "executable": "/home/cm2435/anaconda3/envs/coder/bin/python",
+    "cpu_count": 18,
+    "cpu_count_logical": 36,
+    "cpu_freq": {
+        "current": 2.0555000000000003,
+        "min": 1200.0,
+        "max": 4633.333333333333
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.198,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1.299,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.199,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1.199,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.199,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.201,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1.201,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 4600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1817.1780548095703,
+            "used": 633.1748962402344
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 125.47379302978516
+    }
+}
